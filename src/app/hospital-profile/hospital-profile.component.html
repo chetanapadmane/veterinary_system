@@ -1,0 +1,49 @@
+<div class="container mt-5">
+    <h2>
+        Please add Hospital details:
+    </h2>
+    <form (submit)="submitDetails()">
+        <div class="form-group">
+            <label for="hospitalName">Hospital Name:</label>
+            <input type="text" id="hospitalName" name="hospitalName" class="form-control" [(ngModel)]="profile.name">
+        </div>
+
+        <div class="form-group">
+            <label for="addressLine1">Address Line 1:</label>
+            <input type="text" id="addressLine1" name="addressLine1" class="form-control"
+                [(ngModel)]="profile.addressLine1">
+        </div>
+
+        <div class="form-group">
+            <label for="addressLine2">Address Line 2:</label>
+            <input type="text" id="addressLine2" name="addressLine2" class="form-control"
+                [(ngModel)]="profile.addressLine2">
+        </div>
+
+        <div class="form-group">
+            <label for="city">City:</label>
+            <input type="text" id="city" name="city" class="form-control" [(ngModel)]="profile.city">
+        </div>
+
+        <div class="form-group">
+            <label for="zipcode">Zip/Postal Code:</label>
+            <input type="text" id="zipcode" name="zipcode" class="form-control" [(ngModel)]="profile.zipcode">
+        </div>
+
+        <div class="form-group">
+            <label for="state">State:</label>
+            <input type="text" id="state" name="state" class="form-control" [(ngModel)]="profile.state">
+        </div>
+
+        <div class="form-group">
+            <label for="country">Country:</label>
+            <input type="text" id="country" name="country" class="form-control" [(ngModel)]="profile.country">
+        </div>
+
+        <div class="form-group">
+            <label for="aboutHospital">About Hospital:</label>
+            <textarea type="text" id="aboutHospital" name="aboutHospital" class="form-control" [(ngModel)]="profile.aboutHospital"></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">SUBMIT DETAILS</button>
+    </form>
+</div>

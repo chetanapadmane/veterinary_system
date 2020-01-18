@@ -1,0 +1,29 @@
+.login-page {
+  width: 50%;
+  margin: 50px auto;
+  border: 2px solid #ffa500;
+}
+table {
+  width: 100%;
+  height: 90px;
+  background-color: #ffa500;
+  text-align: center;
+}
+
+td button {
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: none;
+  width: 200px;
+}
+
+.button-focus {
+  background-color: #ff8100;
+}
+
+.form-details{
+    padding: 30px;
+    background-color: #ffa500;
+    color: white;
+}

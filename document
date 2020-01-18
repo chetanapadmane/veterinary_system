@@ -1,0 +1,34 @@
+1. show the list of animals in hospital
+2. show the list of animals for whom help is needed from other hospital
+    1. search for the hospital
+    2. send the request to that hospital
+
+3. hospital:
+    check recieved requests
+
+4. add ratings to other hospitals
+5. login logout functionality
+-----------------------------------------------------------------------------------------------------------
+Ganu:
+
+-> remaining: 
+    add form validations for all forms
+    display logout when hospital is already login
+
+
+    update hospital profile if require
+    show about hospital deatils in new line format.
+    use hospital id when adding new entry of animal from hospital.
+    edit animal details, check animal name in same hospital should be unique
+    add multiple  images 
+
+    enable disable buttons
+
+--> database tables:
+registered hospitals:
+hospitals profile information: 
+animals information:
+requsest send to the hospitals records
+
+login:
+https://jasonwatmore.com/post/2018/10/29/angular-7-user-registration-and-login-example-tutorial

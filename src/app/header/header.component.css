@@ -1,0 +1,14 @@
+.nav {
+  float: right;
+}
+li {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 35px;
+  background: url("../../assets/images/menu-separator.gif");
+  background-repeat: no-repeat;
+  background-position: right;
+  text-align: center;
+  width: 120px;
+  margin-top: 10px;
+}
